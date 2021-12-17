@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<shape
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <!-- view background color -->
+    <solid
+        android:color="@color/colorBlue" >
+    </solid>
+
+    <!-- view border color and width -->
+    <stroke
+        android:width="3dp"
+        android:color="@color/colorRose" >
+    </stroke>
+
+    <!-- If you want to add some padding -->
+    <padding
+        android:left="4dp"
+        android:top="4dp"
+        android:right="4dp"
+        android:bottom="4dp"    >
+    </padding>
+
+    <!-- Here is the corner radius -->
+    <corners
+        android:radius="10dp"   >
+    </corners>
+
+</shape>
+
+<!--
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    &lt;!&ndash; we define background color &ndash;&gt;
+    <solid android:color="@color/colorBlue" />
+
+    &lt;!&ndash; we define border color and thick &ndash;&gt;
+    <stroke
+        android:width="3dp"
+        android:color="@color/colorWhite" />
+
+    &lt;!&ndash; add some padding for text inside &ndash;&gt;
+    <padding
+        android:bottom="15dp"
+        android:left="15dp"
+        android:right="15dp"
+        android:top="15dp" />
+
+    &lt;!&ndash; we define corner radius, note that radius can be different for each corner &ndash;&gt;
+    <corners android:radius="10dp" />
+
+</shape>
+-->
+<!--
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <corners android:radius="10dp" />
+
+    <padding
+        android:bottom="3dp"
+        android:left="0dp"
+        android:right="0dp"
+        android:top="3dp" />
+
+    <gradient
+        android:angle="90"
+        android:endColor="@color/colorBlue"
+        android:startColor="@color/colorBlue" />
+
+    <stroke
+        android:width="1dp"
+        android:color="@color/colorWhite" />
+
+</shape>-->
+

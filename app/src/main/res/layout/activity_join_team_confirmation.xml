@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/topBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorBlue"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llAboutUs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/logo_top_corner" />
+            </LinearLayout>
+
+            <com.teamtasticoapp.util.SFDSBTextView
+                android:id="@+id/tvJoinTeamConfirmTitle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Spartans"
+                android:textAllCaps="true"
+                android:textColor="@color/colorRose"
+                android:textSize="@dimen/sp_20" />
+
+            <LinearLayout
+                android:id="@+id/llProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/profile" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bottomMenu"
+            android:layout_below="@+id/topBarLayout">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_50"
+                android:orientation="vertical"
+                android:paddingBottom="@dimen/dp_100">
+
+                <TextView
+                    android:id="@+id/tvCongratulations"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="CONGRATULATIONS!!!"
+                    android:textColor="#505F81"
+                    android:textSize="@dimen/sp_18"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvPlayerName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:gravity="center"
+                    android:text="ALAN P."
+                    android:textColor="@color/colorRose"
+                    android:textSize="@dimen/sp_18"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tvCongratu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="30dp"
+                    android:gravity="center"
+                    android:text="You have been added to team:"
+                    android:textColor="#173464"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:id="@+id/tvTeamName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="SPARTANS"
+                    android:textColor="@color/colorRose"
+                    android:textSize="@dimen/sp_18" />
+
+
+               <!-- <Button
+                    android:id="@+id/contactLists"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginEnd="@dimen/dp_30"
+                    android:layout_marginStart="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_50"
+                    android:background="@drawable/drawable_blue_button"
+                    android:padding="@dimen/dp_15"
+                    android:text="Invite other players from Contacts list"
+                    android:textAllCaps="false"
+                    android:textColor="@color/colorTextWhite"
+                    android:textSize="@dimen/sp_16" />-->
+
+              <!--  <TextView
+                    android:id="@+id/tvCotu"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_30"
+                    android:gravity="center"
+                    android:text="or send this code"
+                    android:textColor="#173464"
+                    android:textSize="@dimen/sp_16" />-->
+                <TextView
+                    android:id="@+id/tvSendCode"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_20"
+                    android:gravity="center"
+                    android:text="This is your team code:"
+                    android:textColor="@color/colorBlack"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/sp_16" />
+
+                <TextView
+                    android:id="@+id/tvTeamCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_10"
+                    android:gravity="center"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/sp_10"
+                    android:background="@drawable/drawable_rectangle_blue"
+                    android:text="HDAH7RHDGCODE"
+                    android:textColor="@color/colorRose"
+                    android:textSize="@dimen/sp_28" />
+
+               <!-- <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_30"
+                    android:gravity="center"
+                    android:text="AND ASK TO JOIN A TEAM WHEN"
+                    android:textColor="#5F6A89"
+                    android:textSize="@dimen/sp_18" />-->
+
+               <!-- <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/dp_0"
+                    android:gravity="center"
+                    android:text="THEY REGISTER"
+                    android:textColor="#5F6A89"
+                    android:textSize="@dimen/sp_18" />-->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/dp_20">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_0"
+                        android:layout_gravity="center"
+                        android:text="Send it to your players so that they"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/sp_16" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/dp_0"
+                        android:layout_gravity="center"
+                        android:layout_marginRight="@dimen/dp_55"
+                        android:text="can join your team."
+                        android:textColor="@color/colorBlack"
+                        android:textSize="@dimen/sp_16" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/dp_20">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_0"
+                            android:layout_gravity="center"
+                            android:text="Ask them to "
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/sp_16" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_0"
+                            android:layout_gravity="center"
+                            android:text="Join a team "
+                            android:textColor="@color/colorBlack"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/sp_16" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_0"
+                            android:layout_gravity="center"
+                            android:text="when they"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/sp_16" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:layout_gravity="center">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/dp_0"
+                            android:layout_marginRight="@dimen/dp_56"
+                            android:gravity="center"
+                            android:text="register, and use this code. "
+                            android:textColor="@color/colorBlack"
+                            android:textSize="@dimen/sp_16" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+
+                <Button
+                    android:id="@+id/visitTeamPages"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/dp_30"
+                    android:layout_marginRight="@dimen/dp_30"
+                    android:layout_marginTop="@dimen/dp_50"
+                    android:layout_marginBottom="@dimen/dp_30"
+                    android:background="@drawable/drawable_green_button"
+                    android:inputType="textCapWords|textNoSuggestions"
+                    android:padding="@dimen/dp_15"
+                    android:text="VISIT TEAM PAGE"
+                    android:textColor="@color/colorRose"
+                    android:textSize="@dimen/sp_16" />
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+        <LinearLayout
+            android:id="@+id/bottomMenu"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_50"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorGreen"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+
+            <LinearLayout
+                android:id="@+id/llTeam"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivTeam"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/team_un"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/llChat"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivChat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/xhat_un"
+                    android:visibility="visible" />
+            </LinearLayout>
+
+
+            <!--  <LinearLayout
+                  android:id="@+id/llMessage"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:layout_weight="1"
+                  android:gravity="center">
+
+                  <ImageView
+                      android:id="@+id/ivMessage"
+                      android:layout_width="wrap_content"
+                      android:layout_height="wrap_content"
+                      android:src="@drawable/message_un"
+                      android:visibility="visible" />
+              </LinearLayout>-->
+
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+</layout>

@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorWhite">
+
+
+        <LinearLayout
+            android:id="@+id/topBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorBlue"
+            android:orientation="horizontal">
+
+            <!-- <LinearLayout
+                 android:id="@+id/llBack"
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_marginLeft="20dp"
+                 android:gravity="center">-->
+
+            <ImageView
+                android:id="@+id/ivBackButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/dp_15"
+                android:src="@drawable/back" />
+            <!--</LinearLayout>-->
+
+            <com.teamtasticoapp.util.SFDSBTextView
+                android:id="@+id/tvToWhomChatUserName"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Ethron"
+                android:textAllCaps="true"
+                android:textColor="@color/colorRose"
+                android:textSize="@dimen/sp_20" />
+
+            <!-- <LinearLayout
+                 android:id="@+id/llProfile"
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_marginRight="20dp"
+                 android:gravity="center">-->
+
+            <ImageView
+                android:id="@+id/ivProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:padding="@dimen/dp_15"
+                android:src="@drawable/profile" />
+        </LinearLayout>
+
+        <!--  </LinearLayout>-->
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerViewSenderReceiver"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/topBarLayout"
+            android:layout_above="@+id/rl_chatSend"
+            android:layout_marginBottom="@dimen/dp_0">
+
+        </android.support.v7.widget.RecyclerView>
+
+        <RelativeLayout
+            android:id="@+id/rl_chatSend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorBlue"
+            android:padding="@dimen/dp_5">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                tools:ignore="UselessParent">
+
+                <ImageView
+                    android:id="@+id/ivAttach"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/dp_10"
+                    android:src="@drawable/attached" />
+
+
+                <EditText
+                    android:id="@+id/edtMessage"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="@dimen/dp_5"
+                    android:layout_toEndOf="@+id/ivAttach"
+                    android:layout_toLeftOf="@+id/ivSend"
+                    android:layout_toRightOf="@+id/ivAttach"
+                    android:layout_toStartOf="@+id/ivSend"
+                    android:background="@drawable/drawable_rectangle_white"
+                    android:gravity="start"
+                    android:hint="@string/write_here"
+                    android:imeOptions="actionDone"
+                    android:padding="@dimen/dp_10"
+                    android:text=""
+                    android:textColor="@color/colorBlack"
+                    android:textColorHint="#BDC2C7"
+                    android:textCursorDrawable="@null" />
+
+                <ImageView
+                    android:id="@+id/ivSend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:padding="@dimen/dp_10"
+                    android:src="@drawable/send" />
+
+            </RelativeLayout>
+
+        </RelativeLayout>
+
+        <!-- <LinearLayout
+             android:id="@+id/bottomMenu"
+             android:layout_width="match_parent"
+             android:layout_height="50dp"
+             android:layout_alignParentBottom="true"
+             android:background="@color/colorBlue"
+             android:gravity="center_vertical"
+             android:orientation="horizontal">
+
+             <LinearLayout
+                 android:id="@+id/llAttach"
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:visibility="visible"
+                 android:layout_gravity="center">
+
+                 <ImageView
+                     android:id="@+id/ivPlusButton"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:padding="@dimen/dp_10"
+                     android:src="@drawable/attached" />
+             </LinearLayout>
+
+             <EditText
+                 android:id="@+id/edtMessage"
+                 android:layout_width="250dp"
+                 android:layout_height="wrap_content"
+                 android:layout_toRightOf="@id/ivPlusButton"
+                 android:layout_weight="1"
+                 android:gravity="start"
+                 android:maxLines="5"
+                 android:imeOptions="actionDone"
+                 android:text=""
+                 android:background="@drawable/drawable_rectangle_white"
+                 android:hint="Write here..."
+                 android:paddingLeft="10dp"
+                 android:paddingRight="10dp"
+                 android:textColorHint="#BDC2C7" />
+
+             &lt;!&ndash;  <ImageView
+                   android:id="@+id/tvSend"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:padding="@dimen/dp_10"
+                   android:src="@drawable/send" />&ndash;&gt;
+
+             <LinearLayout
+                 android:id="@+id/llSend"
+                 android:layout_width="wrap_content"
+                 android:layout_height="match_parent"
+                 android:layout_gravity="center">
+
+                 <ImageView
+                     android:id="@+id/ivSend"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:padding="@dimen/dp_10"
+                     android:src="@drawable/send" />
+             </LinearLayout>
+         </LinearLayout>-->
+    </RelativeLayout>
+</layout>

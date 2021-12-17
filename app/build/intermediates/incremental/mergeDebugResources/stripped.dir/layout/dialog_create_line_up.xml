@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+                                                        
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible" android:tag="layout/dialog_create_line_up_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/colorBlue"
+            android:alpha="0.8"
+            android:layout_marginTop="@dimen/dp_110"
+            android:layout_marginBottom="@dimen/dp_50">
+
+           <!-- <TextView
+                android:id="@+id/tvSelectPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_60"
+                android:gravity="center"
+                android:text="Create Your Lineup"
+                android:textColor="@color/colorGreen"
+                android:textSize="@dimen/sp_25"
+                android:textStyle="bold" />-->
+
+            <TextView
+                android:id="@+id/tvNoOfPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_170"
+                android:gravity="center"
+                android:text="# of Players"
+                android:textColor="@color/colorWhite"
+                android:textSize="@dimen/sp_22" />
+
+            <TextView
+                android:id="@+id/tvSelect"
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/tvNoOfPlayer"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="@dimen/dp_10"
+                android:background="@drawable/drawable_rectangle_white"
+                android:drawableRight="@drawable/uparrow"
+                android:gravity="center"
+                android:paddingRight="@dimen/dp_20"
+                android:text="Select"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp" />
+
+
+        </RelativeLayout>
+
+
+
+
+    </RelativeLayout>
+
+
+         

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:tag="layout/activity_group_chat_detail_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+        <LinearLayout
+            android:id="@+id/topBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorBlue"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llProf"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivBackButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/back" />
+            </LinearLayout>
+
+            <com.teamtasticoapp.util.SFDSBTextView
+                android:id="@+id/tvCreateTeam"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Ethron"
+                android:textAllCaps="true"
+                android:textColor="@color/colorRose"
+                android:textSize="@dimen/sp_20" />
+
+            <LinearLayout
+                android:id="@+id/llProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginRight="20dp"
+                android:gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:src="@drawable/profile" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/bottomMenu"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorBlue"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llAttach"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivPlusButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/dp_10"
+                    android:src="@drawable/attached" />
+            </LinearLayout>
+
+            <EditText
+                android:id="@+id/edtMessage"
+                android:layout_width="250dp"
+                android:layout_height="32dp"
+                android:layout_toRightOf="@id/ivPlusButton"
+                android:layout_weight="1"
+                android:background="@drawable/drawable_rectangle_white"
+                android:hint="Write here..."
+                android:paddingLeft="10dp"
+                android:textColorHint="#BDC2C7" />
+
+            <!--  <ImageView
+                  android:id="@+id/tvSend"
+                  android:layout_width="wrap_content"
+                  android:layout_height="wrap_content"
+                  android:padding="@dimen/dp_10"
+                  android:src="@drawable/send" />-->
+
+            <LinearLayout
+                android:id="@+id/llSend"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center">
+
+                <ImageView
+                    android:id="@+id/ivSend"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/dp_10"
+                    android:src="@drawable/send" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+         

@@ -1,0 +1,234 @@
+[
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/popup_want_to_delete_chat.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/popup_want_to_delete_chat.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_group_chat_detail.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_group_chat_detail.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_change_password.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_group_chat.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/fragment_group_chat.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/pop_up_delete_event.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/pop_up_delete_event.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/popup_delete.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/popup_delete.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_individual_chat.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/item_individual_chat.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_player_name.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/item_player_name.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_image_select.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/dialog_image_select.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_all_user_floating_menu.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_all_user_floating_menu.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_team_page_home.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_team_page_home.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_create_team_confirmation.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_create_team_confirmation.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_select_player_name.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/dialog_select_player_name.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialog_create_line_up.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/dialog_create_line_up.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_join_team_info.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_join_team_info.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_join_team_confirmation.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_join_team_confirmation.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_home_login_all.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_home_login_all.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_create_team.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_create_team.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_leave_team.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_leave_team.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_individual_chat_detail.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_individual_chat_detail.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/popup_delete_proceed.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/popup_delete_proceed.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_group_chat.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/item_group_chat.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_select_player_from_team.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/fragment_select_player_from_team.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_schedule.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/fragment_schedule.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_group_chat_detail.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/item_group_chat_detail.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_add_player.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/fragment_add_player.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_splash.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_splash.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_floating_action_menu.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/item_floating_action_menu.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_invite_friends.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_invite_friends.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_create_team_info.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_create_team_info.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_forgot_password.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_forgot_password.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_chat.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/fragment_chat.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_delete_coach.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/item_delete_coach.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/popup_want_to_leave.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/popup_want_to_leave.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_individual_chat_detail.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/item_individual_chat_detail.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_add_an_event.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/fragment_add_an_event.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_team_information_page_who_join.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_team_information_page_who_join.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_added_player.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_added_player.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/dialogselectnoofplayer.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/dialogselectnoofplayer.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_profile_team_player.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_profile_team_player.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_delete_coach.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_delete_coach.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_login.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_login.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_join_team.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_join_team.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_profile_coach.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_profile_coach.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/popup_player_will_appear.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/popup_player_will_appear.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_individual_chat.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/fragment_individual_chat.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/otpdailogue.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/otpdailogue.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/pop_delete_only_coach.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/pop_delete_only_coach.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/item_event_list.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/item_event_list.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/popup_want_to_delete.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/popup_want_to_delete.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/invite_frnd_layout.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/invite_frnd_layout.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_edit_profile.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_reset_pass.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_reset_pass.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_create_lineup.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/fragment_create_lineup.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/pop_up_delete_player.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/pop_up_delete_player.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_about_us.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/activity_about_us.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/gallary_image_place_send.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/gallary_image_place_send.xml"
+    },
+    {
+        "merged": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_team_lineup_schedule.xml",
+        "source": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/src/main/res/layout/fragment_team_lineup_schedule.xml"
+    }
+]

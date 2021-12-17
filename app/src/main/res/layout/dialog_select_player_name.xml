@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/rlSelectPlayer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/dp_50"
+            android:layout_marginTop="@dimen/dp_100"
+            android:alpha="0.9"
+            android:background="@color/colorBlue">
+
+            <TextView
+                android:id="@+id/tvSelectPlayer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/dp_60"
+                android:gravity="center"
+                android:text="Select Player"
+                android:textColor="@color/colorGreen"
+                android:textSize="@dimen/sp_25"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/llRecyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/tvSelectPlayer"
+                android:layout_marginBottom="@dimen/dp_50"
+                android:layout_marginLeft="@dimen/dp_100"
+                android:layout_marginRight="@dimen/dp_100"
+                android:layout_marginTop="@dimen/dp_30"
+                android:background="@drawable/drawable_white_corner_new"
+                android:orientation="vertical">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="@dimen/dp_10" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true">
+
+                <TextView
+                    android:id="@+id/tvCancel"
+                    android:layout_width="120dp"
+                    android:layout_height="30dp"
+                    android:background="@color/colorRose"
+                    android:layout_marginBottom="@dimen/dp_10"
+                    android:gravity="center"
+                    android:text="Cancel"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="@dimen/sp_18" />
+
+            </LinearLayout>
+
+
+
+        </RelativeLayout>
+
+
+    </RelativeLayout>
+
+
+</layout>

@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+            "map": [
+                {
+                    "source": "/Users/apple/Library/Android/sdk/caches/transforms-1/files-1.1/appcompat-v7-23.1.0.aar/77b93f28425736c891de752ff13a2c95/res/values-xlarge-land/values-xlarge-land.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "295",
+                        "endColumns": "63",
+                        "endOffsets": "354"
+                    },
+                    "to": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "63",
+                        "endOffsets": "114"
+                    }
+                },
+                {
+                    "source": "/Users/apple/Library/Android/sdk/caches/transforms-1/files-1.1/ambilwarna-2.0.1.aar/c1d46d2c79ecb04d30ab5d88a91cd8bd/res/values-xlarge-land/values-xlarge-land.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "173,226",
+                        "endColumns": "52,51",
+                        "endOffsets": "221,273"
+                    },
+                    "to": {
+                        "startLines": "3,4",
+                        "startColumns": "4,4",
+                        "startOffsets": "119,172",
+                        "endColumns": "52,51",
+                        "endOffsets": "167,219"
+                    }
+                }
+            ]
+        }
+    ]
+}

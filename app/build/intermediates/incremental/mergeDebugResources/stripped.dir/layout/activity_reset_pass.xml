@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+                                                        
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" android:tag="layout/activity_reset_pass_0" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+        <LinearLayout
+            android:id="@+id/topBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@color/colorBlue"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:id="@+id/llAboutUs"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ivBackButton"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/dp_15"
+                    android:src="@drawable/back" />
+            </LinearLayout>
+
+            <com.teamtasticoapp.util.SFDSBTextView
+                android:id="@+id/tvChangePwd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Forgot Password"
+                android:textAllCaps="true"
+                android:textColor="@color/colorRose"
+                android:textSize="@dimen/sp_20" />
+
+            <LinearLayout
+                android:id="@+id/llProfile"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/ivProfile"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:visibility="invisible"
+                    android:padding="@dimen/dp_15"
+                    android:src="@drawable/profile" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_50"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:id="@+id/edt_new_pass"
+                android:layout_marginStart="@dimen/dp_30"
+                android:layout_marginEnd="@dimen/dp_30"
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="@dimen/sp_10"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_45"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/editext_background"
+                android:textColor="@android:color/white"
+                android:inputType="textPassword"
+                android:hint="New Password"
+                android:textSize="@dimen/dp_16"
+                android:paddingLeft="@dimen/sp_15"
+                android:textColorHint="@color/colorWhite" />
+
+
+            <EditText
+                android:id="@+id/edt_confirm_pass"
+                android:layout_marginStart="@dimen/dp_30"
+                android:layout_marginEnd="@dimen/dp_30"
+                android:drawableLeft="@drawable/password"
+                android:drawablePadding="@dimen/sp_10"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/sp_45"
+                android:layout_marginTop="@dimen/dp_20"
+                android:background="@drawable/editext_background"
+                android:textColor="@android:color/white"
+                android:inputType="textPassword"
+                android:hint="Confirm Password"
+                android:textSize="@dimen/dp_16"
+                android:paddingLeft="@dimen/sp_15"
+                android:textColorHint="@color/colorWhite" />
+
+
+            <Button
+                android:id="@+id/btnChangePassword"
+                android:layout_width="@dimen/dp_200"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginEnd="@dimen/dp_30"
+                android:layout_marginStart="@dimen/dp_30"
+                android:layout_marginTop="@dimen/dp_100"
+                android:background="@drawable/drawable_blue_button"
+                android:inputType="textCapWords|textNoSuggestions"
+                android:padding="@dimen/dp_15"
+                android:text="Change Password"
+                android:textColor="@color/colorTextWhite"
+                android:textSize="@dimen/sp_16" />
+        </LinearLayout>
+
+    </LinearLayout>
+         

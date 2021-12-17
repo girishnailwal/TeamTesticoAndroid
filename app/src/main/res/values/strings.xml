@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">TeamTastico</string>
+
+    <string name="cancel">Cancel</string>
+    <string name="hint_name">Name<font color='#ff2a58'><sup>*</sup></font></string>
+    <string name="hint_email">E-mail<font color='#ff2a58'><sup>*</sup></font></string>
+    <string name="underline_string"><u>Change Password</u></string>
+    <string name="underline_string_terms"><u>Terms &amp; Conditions and</u></string>
+    <string name="underline_string_privacy"><u>Privacy Policies</u></string>
+    <string name="write_here">Write here...</string>
+
+    <string name="otpforget">Please enter the code sent to your registered \n email.</string>
+
+
+    <string name="hints"><![CDATA[Full Name<font color=\'#cc0029\'>*</font>]]></string>
+    <string name="messageWithLink">I accept all the\n<a href="https://teamtastico.com/community/terms/">Terms &amp; Conditions and\n" +"Privacy Policies</a></string>
+
+    <string name="add_event_name">Add an Event<font color='#ff2a58'><sup>*</sup></font></string>
+    <string name="date">Date <font color='#ff2a58'><sup>*</sup></font>:</string>
+    <string name="time">Time <font color='#ff2a58'><sup>*</sup></font>:</string>
+
+    <string name="location_symbol">"@"</string>
+
+
+
+</resources>

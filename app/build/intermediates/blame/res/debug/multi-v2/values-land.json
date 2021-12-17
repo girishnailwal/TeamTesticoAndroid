@@ -1,0 +1,62 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/apple/Documents/MobulousProjet/TeamTasticoApp/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "map": [
+                {
+                    "source": "/Users/apple/Library/Android/sdk/caches/transforms-1/files-1.1/design-23.1.0.aar/b001dccfdb760804cb2085bae1e30c64/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "4",
+                        "startColumns": "4",
+                        "startOffsets": "282",
+                        "endLines": "7",
+                        "endColumns": "12",
+                        "endOffsets": "459"
+                    },
+                    "to": {
+                        "startLines": "10",
+                        "startColumns": "4",
+                        "startOffsets": "567",
+                        "endLines": "13",
+                        "endColumns": "12",
+                        "endOffsets": "744"
+                    }
+                },
+                {
+                    "source": "/Users/apple/Library/Android/sdk/caches/transforms-1/files-1.1/ambilwarna-2.0.1.aar/c1d46d2c79ecb04d30ab5d88a91cd8bd/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "4,5",
+                        "startColumns": "4,4",
+                        "startOffsets": "166,219",
+                        "endColumns": "52,51",
+                        "endOffsets": "214,266"
+                    },
+                    "to": {
+                        "startLines": "8,9",
+                        "startColumns": "4,4",
+                        "startOffsets": "462,515",
+                        "endColumns": "52,51",
+                        "endOffsets": "510,562"
+                    }
+                },
+                {
+                    "source": "/Users/apple/Library/Android/sdk/caches/transforms-1/files-1.1/appcompat-v7-23.1.0.aar/77b93f28425736c891de752ff13a2c95/res/values-land/values-land.xml",
+                    "from": {
+                        "startLines": "4,7,10,13,16,17",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "287,582,896,1199,1505,1576",
+                        "endColumns": "61,71,69,63,70,67",
+                        "endOffsets": "344,649,961,1258,1571,1639"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7",
+                        "startColumns": "4,4,4,4,4,4",
+                        "startOffsets": "55,117,189,259,323,394",
+                        "endColumns": "61,71,69,63,70,67",
+                        "endOffsets": "112,184,254,318,389,457"
+                    }
+                }
+            ]
+        }
+    ]
+}
